@@ -1,5 +1,10 @@
-public class Main {
-    public static void main (String[] args){
-        System.out.println("名前はKate Jonesです");
+class Main {
+    public static void main(String[] args) {
+        
+        Person person = new Person();
+        person.Get_Status();
+        person.Show_Status();
+
+        
     }
 }
